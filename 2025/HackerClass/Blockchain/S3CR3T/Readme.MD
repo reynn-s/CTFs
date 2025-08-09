@@ -1,7 +1,7 @@
-I use Forge as the tool to solve this CTF Puzzle
+I used Forge as the tool to solve this CTF puzzle.
 
-First, i initiate the forge in the S3CR3T directory and then create the .env from the given value.
-then i use ```source .env``` so that i can test the connection using:
+First, I initiated forge in the S3CR3T directory and then created the .env file from the given values.
+Then I used ```source .env``` so that I could test the connection using:
 '''
 cast call $SETUP "challenge()(address)" --rpc-url $RPC_URL
 '''
@@ -11,15 +11,15 @@ exporting the output
 export CHALL="0x4F13C75a208BF84B95eC8C04983c16C89F6883f7"
 ```
 
-and then putting the ```Setup.sol``` and ```Secret.sol``` in the src directory 
-after that editing the script at ```Counter.s.sol``` on the script directory
+Then I put the ```Setup.sol` and ```Secret.sol``` files in the src directory. 
+After that, I edited the script at `Counter.s.sol` in the script directory.
 
-based on the given value from the compfest website the PRIVKEY doesnt have the ```0x``` so i add it
+Based on the given value from the CompFest website, the PRIVKEY didn't have the ```0x``` prefix, so I added it.
 
-after that compile
+After that, i compiled it:
 
 ```forge script script/Counter.s.sol:CounterScript --broadcast```
 
-after compile check the flag at the website which is:
+After compiling, I checked the flag on the website, which was:
 
 ```COMPFEST17{finally_COMPFEST17_Y3333333AYYYY!_32e0debeb1}```
