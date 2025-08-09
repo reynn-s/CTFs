@@ -2,9 +2,9 @@ I used Forge as the tool to solve this CTF puzzle.
 
 First, I initiated forge in the S3CR3T directory and then created the .env file from the given values.
 Then I used ```source .env``` so that I could test the connection using:
-'''
+```
 cast call $SETUP "challenge()(address)" --rpc-url $RPC_URL
-'''
+```
 
 exporting the output
 ```
