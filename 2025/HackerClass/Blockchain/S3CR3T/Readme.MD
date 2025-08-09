@@ -23,3 +23,5 @@ After that, i compiled it:
 After compiling, I checked the flag on the website, which was:
 
 ```COMPFEST17{finally_COMPFEST17_Y3333333AYYYY!_32e0debeb1}```
+
+![S3CR3T FLAG](https://github.com/reynn-s/CTFs/blob/main/2025/HackerClass/Blockchain/S3CR3T/BlockchainFlag.jpg)
