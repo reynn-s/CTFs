@@ -11,7 +11,7 @@ exporting the output
 export CHALL="0x4F13C75a208BF84B95eC8C04983c16C89F6883f7"
 ```
 
-Then I put the ```Setup.sol` and ```Secret.sol``` files in the src directory. 
+Then I put the ```Setup.sol``` and ```Secret.sol``` files in the src directory. 
 After that, I edited the script at `Counter.s.sol` in the script directory.
 
 Based on the given value from the CompFest website, the PRIVKEY didn't have the ```0x``` prefix, so I added it.
