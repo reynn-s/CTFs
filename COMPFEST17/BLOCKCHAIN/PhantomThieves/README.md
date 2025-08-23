@@ -15,5 +15,5 @@
 ## **COMMAND** ##
 
 ```
-forge script Exploit.s.sol\:Exploit --rpc-url \$RPC_URL --private-key \$PRIVKEY --broadcast
+forge script script/Exploit.s.sol:Exploit --rpc-url \$RPC_URL --private-key \$PRIVKEY --broadcast
 ```
